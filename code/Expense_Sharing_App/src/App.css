@@ -1,0 +1,249 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f7fb;
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+.app-container {
+  max-width: auto;
+  display:block;
+  margin: auto;
+  padding: 5px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.center {
+  text-align: center;
+}
+
+.btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn.danger {
+  background: #e74c3c;
+  color: white;
+}
+
+.btn.danger:hover {
+  background: #c0392b;
+}
+
+.app-footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+}
+
+/* ===== Balance Sheet Table Styles ===== */
+.balances-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.balances-table th, .balances-table td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.credit {
+    background-color: #e6ffe6;
+}
+
+.debit {
+    background-color: #ffe6e6;
+}
+.expenses-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.expenses-table th,
+.expenses-table td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.expenses-table th {
+    background-color: #f8f8f8;
+}
+
+.amount {
+    font-weight: bold;
+}
+/* ===== Expense Form Styles ===== */
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.form-col {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-col label {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.form-col input,
+.form-col select {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease;
+}
+
+.form-col input:focus,
+.form-col select:focus {
+  border-color: #4cafef;
+  outline: none;
+}
+
+.form-col small {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.participants {
+  margin-top: 8px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 10px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.chip:hover {
+  background-color: #e0e0e0;
+}
+
+.btn {
+  padding: 8px 16px;
+  background-color: #4cafef;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #3a97d8;
+}
+
+.muted {
+  color: #777;
+}
+
+.muted.small {
+  font-size: 0.8rem;
+}
+/* ===== Members List Styles ===== */
+
+.form-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease;
+}
+
+.form-row input:focus {
+  border-color: #4cafef;
+  outline: none;
+}
+
+.members {
+  list-style: none;
+  padding: 0;
+  margin-top: 12px;
+}
+
+.members li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  background: #f9f9f9;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.members li:hover {
+  background-color: #f0f0f0;
+}
+
+.members li span {
+  font-weight: 500;
+}
+
+.btn.small {
+  padding: 5px 10px;
+  font-size: 0.85rem;
+}
+
+.btn svg {
+  vertical-align: middle;
+  margin-right: 4px;
+}
